@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 mb-3 text-center">Star Wars API</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="btn-group w-100 mb-3" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary" id="peopleBtn">People</button>
+                    <button type="button" class="btn btn-primary" id="filmsBtn">Films</button>
+                    <button type="button" class="btn btn-primary" id="planetsBtn">Planets</button>
+                </div>
+                <div id="dataContainer" class="card-columns"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

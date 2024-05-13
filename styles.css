@@ -1,0 +1,37 @@
+/* styles.css */
+body {
+    background-color: #ded2a2;
+}
+
+.container {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: wheat;
+}
+h1{
+    color: blueviolet;
+}
+
+#buttons {
+    text-align: center;
+}
+
+
+.dropdown-item {
+    cursor: hand;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(129, 9, 109, 0.1);
+}
+/* Pagination button styles */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
